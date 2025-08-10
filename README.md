@@ -1,6 +1,3 @@
-# sales-dashboard-tableau
-Interactive Tableau dashboard — Sales &amp; Profit Analysis .
-
 # 📊Sales & Profit Dashboard (Tableau)
 
 **Project:** Sales & Profit Analysis Dashboard  
