@@ -1,43 +1,24 @@
 # sales-dashboard-tableau
 Interactive Tableau dashboard — Sales &amp; Profit Analysis .
 
-📊 Sales & Profit Dashboard – Tableau
-Overview
-This project presents an interactive Tableau dashboard analyzing sales, profit, and growth trends across categories and regions.
-It provides actionable insights for business decision-making with clear KPIs, trend visualizations, and filters.
+# 📊Sales & Profit Dashboard (Tableau)
 
+**Project:** Sales & Profit Analysis Dashboard  
+**Tool:** Tableau Desktop / Tableau Public 
 
-📌 Key Insights
-Total Sales: ₹ 22.97 Lakh
+---
 
-Total Profit: ₹ 2.86 Lakh
+## Overview
+Interactive dashboard built in Tableau to analyze sales and profit trends using a sample Sales/Financial dataset (Superstore-style). The dashboard includes KPIs, time-series analysis, category comparisons, and interactive filters to enable data-driven decisions.
 
-Sales Growth %: -54.50% (lowest) → 186.40% (highest)
-
-Top Category: Technology
-
-Top Region: South
-
-📈 Features
-Interactive filters for category, region, and date.
-
-Sales & profit trends over time.
-
-Category and region-wise performance breakdown.
-
-KPI summary cards for quick business health check.
-
-📂 Repository Structure
-bash
-Copy
-Edit
+---
+## 📂 Repository Structure
 sales-dashboard-tableau/
 │
 ├── README.md                   # Project overview
 │
 ├── data/                        # Dataset or source link
 │   ├── superstore_sample.csv
-│   └── README.md
 │
 ├── tableau/                     # Tableau workbook
 │   └── sales_profit_dashboard.twbx
@@ -51,15 +32,30 @@ sales-dashboard-tableau/
 │   ├── sales_trend.png
 
 
-📊 Dashboard Screenshots
-Dashboard Overview
+---
 
-KPI Summary
+## Key Metrics (from dashboard)
+- **Total Sales:** ₹ 22,97,201  
+- **Total Profit:** ₹ 2,86,397  
+- **Sales Growth %:** -54.50% (lowest) to 186.40% (highest)  
+- **Top Category (by Sales):** Technology  
+- **Top Region (by Profit):** South
 
-Sales Trend
+---
+
+## Features
+- KPI cards for Sales, Profit and Growth %  
+- Monthly Sales & Profit trend (line chart)  
+- Category-wise Sales (bars colored by Profit)  
+- Filters: Category, Region, Order Date range  
+- Interactive: charts can be used as filters for drill-down
+
+---
 
 ## How to run / open
 1. Open `tableau/dashboard.twbx` in Tableau Desktop or Tableau Public.  
 2. Use filters on the dashboard to explore by category/region/date.  
 3. To export: Dashboard → Export as Image / PDF.
+
+---
 
